@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¡Hola Mundo desde DevOps! 🌍🚀</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #f5b6f3, #9fd3fc);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+      animation: backgroundShift 10s infinite alternate;
+    }
+
+    h1 {
+      font-size: 4em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px #000;
+      animation: bounce 1.5s infinite;
+    }
+
+    .info {
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: 1.5em;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+
+    .emoji {
+      font-size: 2em;
+      margin: 15px 0;
+      animation: spin 5s linear infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+
+    @keyframes backgroundShift {
+      0% { background: linear-gradient(135deg, #f5b6f3, #9fd3fc); }
+      100% { background: linear-gradient(135deg, #9fd3fc, #f5b6f3); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>¡Hola Mundo! 🌟</h1>
+  <div class="emoji">💻🎓🚀</div>
+
+  <div class="info">
+    <p><strong>Nombre:</strong> Ada Jimenez</p>
+    <p><strong>Matrícula:</strong> 20220790</p>
+    <p><strong>Materia:</strong> DevOps</p>
+  </div>
+
+  <footer>
+    <p>Hecho con ❤️ y café ☕</p>
+  </footer>
+</body>
+</html>
